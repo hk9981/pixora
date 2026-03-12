@@ -27,3 +27,5 @@
    git clone [https://github.com/hk9981/pixora.git](https://github.com/hk9918/pixora.git)
    cd pixora
    npm install
+   npm run dev
+   npm run build (for production)

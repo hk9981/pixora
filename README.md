@@ -1,16 +1,28 @@
-# React + Vite
+# 🎨 Pixora
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**Pixora** is a high-performance, browser-based vector design engine. Built with **React** and **HTML5 Canvas**, it offers a lightweight but powerful alternative to heavy design software, featuring a custom math engine for object manipulation.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Key Features
 
-## React Compiler
+* **Custom Physics Engine:** Built from scratch to handle object collisions, rotation math, and scaling.
+* **Proportional Scaling:** Hold `Shift` to lock aspect ratios—perfect for images and circles.
+* **Smart Visual Layering:** One-click depth control. Objects intelligently jump over or under overlapping groups.
+* **Object Stitching (Grouping):** Link multiple elements into a single entity using `Ctrl+G`.
+* **Dynamic Styling:** Real-time color control, line thickness sliders, and text editing.
+* **High-Res Production:** 2x scaled PNG export with intelligent canvas cropping.
+* **Project Persistence:** LocalStorage autosave + JSON project export/import.
 
-The React Compiler is currently not compatible with SWC. See [this issue](https://github.com/vitejs/vite-plugin-react/issues/428) for tracking the progress.
+## 🛠️ Tech Stack
 
-## Expanding the ESLint configuration
+* **Frontend:** React 18, Vite
+* **Engine:** HTML5 Canvas API
+* **Styling:** Modern CSS3 / Dark Mode support
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 💻 Installation
+
+1. **Clone & Install**
+   git clone [https://github.com/YOUR_GITHUB_USERNAME/pixora.git](https://github.com/YOUR_GITHUB_USERNAME/pixora.git)
+   cd pixora
+   npm install

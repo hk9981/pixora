@@ -23,6 +23,7 @@
 ## 💻 Installation
 
 1. **Clone & Install**
-   git clone [https://github.com/YOUR_GITHUB_USERNAME/pixora.git](https://github.com/YOUR_GITHUB_USERNAME/pixora.git)
+   ```bash
+   git clone [https://github.com/hk9981/pixora.git](https://github.com/hk9918/pixora.git)
    cd pixora
    npm install
